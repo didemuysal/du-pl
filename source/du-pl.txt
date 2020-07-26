@@ -1,0 +1,53 @@
+ # testing #
+
+main(){
+    count <== 6;
+    
+    $set.add(1);
+    $set.add('didem');
+    $set.add(count);
+    $set.add($set1);
+    
+    bool1 <== $set.contain(5);
+    bool2 <== $set.contain('uysal');
+    bool3 <== $set.contain(count);
+    bool4 <== $set.contain($set2);
+    function2 <== 4;
+
+    func function1(function2){
+        $set.add(function2);
+        $set.add(count);
+        $set.add($set1);
+        return $set;
+    }
+    $set1 <== function1(function2);
+    for(i = 1:3){
+        $set1.print();
+    }
+    if(bool1 || bool2){
+        $set2.input();
+    }
+    else{
+        $set1.print();
+    }
+    
+    temp <== 5;
+    temp1 <== 10;
+   
+    while(function1(function2)){
+        if($set1<($set2)){
+            temp <== 10;
+        }
+        else{
+            $set1.add($set2);
+        }
+    }
+    if(function1(function2)){
+            temp <== 10;
+    }
+    else{
+        $set1.add($set2);
+    }
+    
+
+}
