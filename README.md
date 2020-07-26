@@ -14,8 +14,7 @@
 
 * Types and Constants
 
-
-	<underscore> ::= “_”
+    <underscore> ::= “_”
 
 	<assign_op>::= “<==”
 
