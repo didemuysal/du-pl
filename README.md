@@ -1,4 +1,4 @@
-# **Akdeniz University CSE 334 Programming Languages**
+# **Programming Languages**
 
 ## **Project Description** 
 
@@ -7,7 +7,7 @@
 
 #### **Team Member**
 
-  Didem Uysal 20160808015
+  Didem Uysal 
  
 
 ### **Content**
